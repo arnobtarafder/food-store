@@ -54,9 +54,11 @@ const Shop = () => {
 
     // const [random, setRandom] = useState([])
     const getRandomItem = () => {
-            const randomNum = cart[Math.floor(Math.random() * cart.length)];
+            const randomOne = cart[Math.floor(Math.random() * cart.length)];
             let newCart = [];
-            newCart = [randomNum];
+            newCart.push(randomOne)
+            // let newCart.push(randomOne)
+            // newCart = [randomOne];
             setCart(newCart);
       }
     
