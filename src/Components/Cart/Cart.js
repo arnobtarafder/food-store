@@ -26,7 +26,7 @@ const Cart = (props) => {
                         removeFromCart= {chooseRandom}
                     ></DisplayCartM>)
                 }
-                <button className='btn btn-outline-success' onClick={() => chooseRandom(cart)}>Choose Some Foods</button><br /> <br />
+                <button className='btn btn-outline-success' onClick={() => chooseRandom(id)}>Choose One Food</button><br /> <br />
                 {/* <h1>{chooseRandom.length}</h1> */}
 
                 <button className='btn btn-outline-success' onClick={() => removeFromCart(id)}>Choose Again<FiDelete className='del-icon'/></button>
