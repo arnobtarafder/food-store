@@ -1,0 +1,18 @@
+.cart{
+    position: sticky;
+    margin: 0 auto;
+    text-align: center;
+    top: 125px;
+}
+
+.grand-total,
+.cart-length{
+    font-weight: 600;
+}
+
+.del-icon{
+    color: red;
+    margin-left: 11px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}

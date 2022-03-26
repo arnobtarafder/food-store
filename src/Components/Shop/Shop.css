@@ -1,0 +1,122 @@
+/* .shopping-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.products-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 47px;
+  margin: 100px 50px;
+}
+
+.cart-container{
+  background: rgba(255, 153, 0, 0.3)
+}
+
+@media screen and (max-width:800px) {
+  .products-container{
+      grid-template-columns: repeat(1, 1fr);
+  }
+} */
+
+
+
+.card-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.foods-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  margin: 50px 50px;
+}
+
+.cart-container{
+  background-image: linear-gradient(180deg, rgba(201, 201, 201, 0.027), rgba(189, 186, 186, 0.089));
+  backdrop-filter: blur(5px);
+  border-left: 2px solid rgba(155, 154, 154, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 490px) {
+  .card-container{
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .foods-container{
+      grid-template-columns: repeat(1, 1fr);
+      gap: 15px;
+      margin: 0 auto;
+  }
+  .reverse-main{
+      order: 1;
+  }
+  .cart-container{
+      position: sticky;
+      margin: 0 auto;
+      top: 80px;
+      border-left: none;
+      backdrop-filter: blur(15px);
+      width: 85%;
+  }
+}
+
+
+
+
+
+
+
+.card {
+    /* background-color: #def5fc;
+    height: 570px;
+    width: 350px;
+    padding: 15px; */
+    /* position: relative; */
+    /* justify-self: center; */
+    /* border-radius: 7%; */
+    /* clip-path: polygon(15% 0%, 100% 0, 100% 90%, 85% 100%, 0 100%, 0% 10%); */
+  }
+  
+  .image-container {
+  /*width: 320px;
+    height: 320px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5%;
+     clip-path: polygon(15% 0%, 100% 0, 100% 86%, 85% 100%, 0 100%, 0% 16%); */
+  }
+  
+  .image-container img {
+    /* height: 100%;
+    width: 100%;
+    object-fit: contain; */
+  }
+/*   
+  .add-to-cart {
+    width: calc(100% - 30px);
+    height: 50px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-to-cart h1 {
+    margin-left: 25px;
+  }
+  
+  .add-to-cart button {
+    background-color: #fff;
+    border: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  } */
