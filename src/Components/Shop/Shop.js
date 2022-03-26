@@ -52,14 +52,14 @@ const Shop = () => {
     };
 
 
-    // const [random, setRandom] = useState([])
+    const [random, setRandom] = useState([])
     const getRandomItem = () => {
             const randomOne = cart[Math.floor(Math.random() * cart.length)];
-            let newCart = [];
-            newCart.push(randomOne)
+            // let newCart = [];
+            // newCart.push(randomOne)
             // let newCart.push(randomOne)
             // newCart = [randomOne];
-            setCart(newCart);
+            setRandom(randomOne);
       }
     
 
@@ -81,7 +81,7 @@ const Shop = () => {
                 removeFromCart = {removeFromCart}
                 chooseRandom = {getRandomItem}
                 ></Cart>
-                {/* <Random></Random> */}
+                <Random randomData = {random}></Random>
             </div>
          </div>
     );

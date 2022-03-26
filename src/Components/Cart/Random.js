@@ -1,27 +1,23 @@
-// import React from 'react';
-// import { useEffect, useState } from 'react';
+import React from 'react';
+import { useEffect, useState } from 'react';
+import './Random.css'
 
 
-// const Random = () => {
-//     const [cart, setCart] = useState([]);
-//     console.log(cart);
-//     useEffect(() => {
-//         fetch('foods.json')
-//         .then(res => res.json())
-//         .then(data => setCart(data));
-//     }, []);
+const Random = ({randomData}) => {
 
-//     function getRandomItem() {
-//         // console.log(cart.length);
-//         const random = cart[Math.floor(Math.random()* cart.length)];
-//         return random;
-//     }
+    return (
+        <div>
+            <h3 className="random-info"> 
+                <span> 
+                <img style={{ height: '50px', width: '50px', borderRadius: '50%' }} className="rounded-circle" src={randomData.image} alt="" /> 
+                </span> 
+                <span>{randomData.name}</span>
+                <h5>৳ {randomData.price}</h5>
+                <p>{randomData.weight}</p>    
+                {/* {instructor} */}
+            </h3>
+        </div>
+    );
+};
 
-//     return (
-//         <div>
-//             <button className='btn btn-outline-success' onClick={getRandomItem}>Choose one for me</button><br /> <br />
-//         </div>
-//     );
-// };
-
-// export default Random;
+export default Random;
