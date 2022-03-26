@@ -5,6 +5,7 @@ import Shop from './Components/Shop/Shop';
 import Navbar from './Components/Navbar/Navbar';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Questions from './Components/Questions/Questions';
 
 function App() {
   
@@ -16,6 +17,8 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Shop></Shop>
+      <br /><br />
+      <Questions></Questions>
     </div>
   );
 }

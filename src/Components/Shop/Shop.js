@@ -52,8 +52,18 @@ const Shop = () => {
     };
 
 
+    const getRandomItem = () => {
+        const newCart = cart;
+        const randomCart = newCart[Math.floor(newCart.length * Math.random())]
+        const newRandom = [randomCart];
+        setCart(newRandom)
+        // console.log(newRandom);
+    }
+
+    
+
     return (
-        <div className='card-container'>
+        <div className='card-container container'>
             <div className='foods-container reverse-main'>
             {
                 foods.map(food => <Card 
@@ -68,12 +78,14 @@ const Shop = () => {
                 <Cart key = {cart._id}
                 cart = {cart} 
                 removeFromCart = {removeFromCart}
-                // chooseRandom = {getRandomItem}
+                chooseRandom = {getRandomItem}
                 ></Cart>
                 {/* <Random></Random> */}
             </div>
         </div>
     );
 };
+
+// const random = cart[Math.floor(Math.random() * cart.length)]; 
 
 export default Shop;
