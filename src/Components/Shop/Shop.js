@@ -19,7 +19,7 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
     const handleAddToCart = (food) => {
         // console.log(food);
-        const exists = cart.find(pd => food.id !== pd.id)
+        const exists = cart.find(pd => pd.id !== food.id)
         
         if(!(cart.length > 4)) {
             const newfood = [...cart, food];
@@ -29,7 +29,7 @@ const Shop = () => {
         else if(!exists) {
             swal({
                 title: "Error!",
-                text: "Sorry! you cannot buy 1 item two times",
+                text: "Sorry! you cannot select more than 5 products",
                 icon: "error",
                 button: "Okay!",
               });
@@ -40,18 +40,19 @@ const Shop = () => {
         else{
             swal({
                 title: "Error!",
-                text: "Sorry! you cannot buy more than 5 products",
+                text: "Sorry! you cannot select more than 5 products",
                 icon: "error",
                 button: "Okay!",
               });
         }}
 
     const removeFromCart = (id) => {
-        const newList = cart.filter((item) => item.id !== id);
-        setCart(newList);
+        // const newList = cart.filter((item) => item.id !== id);
+        setCart([]);
     };
 
 
+    // const [random, setRandom] = useState([])
     const getRandomItem = () => {
         const newCart = cart;
         const randomCart = newCart[Math.floor(newCart.length * Math.random())]
@@ -63,8 +64,8 @@ const Shop = () => {
     
 
     return (
-        <div className='card-container container'>
-            <div className='foods-container reverse-main'>
+        <div className='container'>
+            <div className='foods-container container reverse-main'>
             {
                 foods.map(food => <Card 
                 key = {food._id} 
@@ -74,7 +75,7 @@ const Shop = () => {
                 ></Card>)
             }
             </div>
-            <div className="cart-container">
+            <div className="cart-container container">
                 <Cart key = {cart._id}
                 cart = {cart} 
                 removeFromCart = {removeFromCart}

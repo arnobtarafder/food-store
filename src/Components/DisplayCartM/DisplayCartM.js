@@ -11,7 +11,8 @@ const DisplayCartM = (props) => {
                 <img style={{ height: '50px', width: '50px', borderRadius: '50%' }} className="rounded-circle" src={image} alt="" /> 
                 </span> 
                 <span>{name}</span>
-                <p>৳ {price}</p>
+                <h5>৳ {price}</h5>
+                
                 {/* {instructor} */}
             </h5>
         </div>

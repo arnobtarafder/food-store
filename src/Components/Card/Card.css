@@ -25,10 +25,6 @@
     margin-top: 7px;
 }
 
-.product-information{
-    margin: 0px 13px;
-}
-
 .product-price{
     color: #999999;
 }
@@ -36,9 +32,4 @@
 .product-price:hover{
     color: black;
     font-weight: bolder;
-}
-
-.product-information p{
-    margin-bottom: 0px;
-    margin-top: 7px;
 }

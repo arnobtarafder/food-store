@@ -1,10 +1,8 @@
 .navbar {
     background-color: #78bd87;
     height: 80px;
-    width: 100%;
+    width: 99.99%;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
     position: sticky;
     padding: 0 100px;
     top: 0;
@@ -17,25 +15,3 @@
     color: white;
     font-family: "Metamorphous", cursive;
   }
-/*   
-  .cart-counter {
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .cart-counter span {
-    position: absolute;
-    top: -20px;
-    right: -15px;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    border-radius: 100px;
-    background: rgba(179, 0, 0, 0.493);
-    padding: 5px;
-    color: white;
-  }
-
-  .icon{
-    margin: 11px;
-  } */
