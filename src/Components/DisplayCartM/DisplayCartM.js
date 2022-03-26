@@ -2,7 +2,7 @@ import React from 'react';
 import './DisplayCartM.css'
 
 const DisplayCartM = (props) => {
-    const {removeFromCart} = props;
+    const {removeFromCart, chooseRandom2} = props;
     const { image, id, name, price } = props.foodInfo;
     return (
         <div>

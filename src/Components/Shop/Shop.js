@@ -3,6 +3,7 @@ import Cart from '../Cart/Cart';
 import Card from '../Card/Card';
 import './Shop.css';
 import swal from 'sweetalert';
+import Random from '../Cart/Random';
 
 
 const Shop = () => {
@@ -50,12 +51,6 @@ const Shop = () => {
         setCart(newList);
     };
 
-    const randomOne = (food) => {
-        // const NewFromCart = cart;
-        // var randomOne = NewFromCart[Math.floor(Math.random() * NewFromCart.length)];
-        // return randomOne;
-    console.log(food);
-    }
 
     return (
         <div className='card-container'>
@@ -65,7 +60,7 @@ const Shop = () => {
                 key = {food._id} 
                 foodsData = {food} 
                 handleAddToCart = {handleAddToCart}
-                chooseRandom = {randomOne}
+                // chooseRandom = {getRandomItem}
                 ></Card>)
             }
             </div>
@@ -73,8 +68,9 @@ const Shop = () => {
                 <Cart key = {cart._id}
                 cart = {cart} 
                 removeFromCart = {removeFromCart}
-                chooseRandom = {randomOne}
+                // chooseRandom = {getRandomItem}
                 ></Cart>
+                {/* <Random></Random> */}
             </div>
         </div>
     );

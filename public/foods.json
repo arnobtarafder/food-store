@@ -1,62 +1,79 @@
 [
     {
       "_id": "623e071c85184513466c4f9e",
-      "price": 873,
-      "name": "Apple",
-      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826"
+      "price": 78,
+      "name": "Onion",
+      "image": "https://chaldn.com/_mpimage/deshi-peyaj-local-onion-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D52358&q=low&v=1&m=400&webp=1",
+      "weight": "1 kg"
     },
     {
       "_id": "623e071cae3c10018ac945f3",
       "price": 274,
-      "name": "Kristy Riley",
-      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826"
+      "name": "Apple",
+      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826",
+      "weight": "1 kg"
     },
     {
       "_id": "623e071c9976ffc0807b6286",
-      "price": 852,
-      "name": "Valencia Mcintyre",
-      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826"
+      "price": 25,
+      "name": "Potato",
+      "image": "https://chaldn.com/_mpimage/boro-alu-big-diamond-potato-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79694&q=low&v=1&m=400&webp=1",
+      "weight": "1 kg"
     },
     {
       "_id": "623e071c05640b9fa8407b7e",
-      "price": 574,
-      "name": "Mable Cote",
-      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826"
+      "price": 57,
+      "name": "Carrot",
+      "image": "https://chaldn.com/_mpimage/deshi-gajor-local-carrot-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64363&q=low&v=1&m=400&webp=1",
+      "weight": "1 kg"
     },
     {
       "_id": "623e071cb1f2bbd3a0509895",
-      "price": 502,
-      "name": "Prince Barton",
-      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826"
+      "price": 301,
+      "name": "Watermelon",
+      "image": "https://chaldn.com/_mpimage/watermelon-medium-4-kg-tormuj-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D34711&q=low&v=1&m=400&webp=1",
+      "weight": "each"
     },
     {
       "_id": "623e071c9c4ebf1498c8f839",
-      "price": 94,
-      "name": "Chris Phelps",
-      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826"
+      "price": 11,
+      "name": "Red Spinach",
+      "image": "https://chaldn.com/_mpimage/lal-shak-red-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7226&q=low&v=1&m=400&webp=1",
+      "weight": "1 bundle"
     },
     {
       "_id": "623e071c3c51a8d5aaad58af",
-      "price": 906,
-      "name": "Whitley Booth",
-      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826"
+      "price": 678,
+      "name": "Mabroom Al Madina Premium Dates",
+      "image": "https://chaldn.com/_mpimage/mabroom-al-madina-premium-dates-sealed-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D76589&q=low&v=1&m=400&m=400&webp=1",
+      "weight": "1 kg"
     },
     {
       "_id": "623e071ce1656ba2dff7306e",
-      "price": 819,
-      "name": "Joseph Pittman",
-      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826"
+      "price": 78,
+      "name": "Lomba Kochu",
+      "image": "https://chaldn.com/_mpimage/lomba-kochu-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D14302&q=low&v=1&m=400&webp=1",
+      "weight": "each"
     },
     {
       "_id": "623e071ccee7e3c021ab9841",
-      "price": 137,
-      "name": "Sosa Mejia",
-      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826"
+      "price": 25,
+      "name": "Badhakopi Pata",
+      "image": "https://chaldn.com/_mpimage/badhakopi-pata-chinese-cabbage-leaves-150gm-1pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7070&q=low&v=1&m=400&webp=1",
+      "weight": "1 bundle"
     },
     {
       "_id": "623e071cc0059f5b109a63fa",
-      "price": 671,
-      "name": "Tiffany Caldwell",
-      "image": "https://img.freepik.com/free-photo/stack-green-fresh-apple-grey-surface_114579-80609.jpg?t=st=1648234856~exp=1648235456~hmac=d2dfe02f31995433c782b52dbc187d0e323187e893ca23b42edd262e55722437&w=826"
-    }
+      "price": 917,
+      "name": "Fresh Fortified Soyabean Oil",
+      "image": "https://chaldn.com/_mpimage/fresh-fortified-soyabean-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D93160&q=best&v=1&m=400&webp=1",
+      "weight": "5 litre"
+    },
+    {
+      "_id": "623e071ce1656ba2dff7306e",
+      "price": 210,
+      "name": "Ispahani Mirzapore Leaf Tea",
+      "image": "https://chaldn.com/_mpimage/ispahani-mirzapore-best-leaf-tea-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D87968&q=best&v=1&m=400&webp=1",
+      "weight": "400 gm"
+    }    
   ]
