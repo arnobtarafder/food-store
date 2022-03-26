@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 45px;
-  /* margin: 50px 11px; */
+  margin: 50px 0px;
 }
 
 .cart-container{
@@ -18,7 +18,8 @@
   border-left: 2px solid rgba(155, 154, 154, 0.1);
   padding: 17px;
   text-align: center;
-}
+  overflow-x: hidden;
+} 
 
 @media screen and (max-width: 590px) {
   .card-container{
@@ -39,10 +40,13 @@
       position: sticky;
       margin: 0 auto;
       top: 80px;
+      left: 0px;
       border-left: none;
       backdrop-filter: blur(15px);
-      width: 100%;
+      width: 95%;
       margin-top: 31px;
+      overflow-x: hidden;
+      /* width: 300px; */
   }
 }
 /* 

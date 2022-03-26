@@ -54,18 +54,16 @@ const Shop = () => {
 
     // const [random, setRandom] = useState([])
     const getRandomItem = () => {
-        const newCart = cart;
-        const randomCart = newCart[Math.floor(newCart.length * Math.random())]
-        const newRandom = [randomCart];
-        setCart(newRandom)
-        // console.log(newRandom);
-    }
-
+            const randomNum = cart[Math.floor(Math.random() * cart.length)];
+            let newCart = [];
+            newCart = [randomNum];
+            setCart(newCart);
+      }
     
 
     return (
-        <div className='container'>
-            <div className='foods-container container reverse-main'>
+        <div className='container overflow-hidden'> {/*  col-md-12 col-lg-12 col-sm-12 */}
+            <div className='foods-container container reverse-main'> {/*  col-md-8 col-sm-12 */}
             {
                 foods.map(food => <Card 
                 key = {food._id} 
@@ -75,7 +73,7 @@ const Shop = () => {
                 ></Card>)
             }
             </div>
-            <div className="cart-container container">
+            <div className="cart-container ms-0">{/*  col-md-8 col-sm-12 */}
                 <Cart key = {cart._id}
                 cart = {cart} 
                 removeFromCart = {removeFromCart}
@@ -83,7 +81,7 @@ const Shop = () => {
                 ></Cart>
                 {/* <Random></Random> */}
             </div>
-        </div>
+         </div>
     );
 };
 

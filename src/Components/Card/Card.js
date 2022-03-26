@@ -6,7 +6,7 @@ const Card = ({foodsData, handleAddToCart}) => {
     const {image, name, price, weight} = foodsData;
 
     return (
-        <div className='product container'  data-aos="flip-down">
+        <div className='product'  data-aos="flip-down">
              <img src= {image} alt="" />
            <div className="product-information">
            <p className='product-name'>{name}</p>

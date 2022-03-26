@@ -13,7 +13,7 @@ const Cart = (props) => {
     };
 
     return (
-        <div className='cart cart-container container reverse-main'>
+        <div className='cart-container col-md-4 col-sm-12 reverse-main'>
             <h3>Order Summary</h3>
             <p>Total Selected Items: <span className='cart-length'>{cart.length}</span></p>
             <p>Total Price: <span className='grand-total'>$ {grandTotal}</span></p>
@@ -26,10 +26,10 @@ const Cart = (props) => {
                         removeFromCart= {chooseRandom}
                     ></DisplayCartM>)
                 }
-                <button className='btn btn-outline-success' onClick={() => chooseRandom(props)}>Choose one for me</button><br /> <br />
+                <button className='btn btn-outline-success' onClick={() => chooseRandom(cart)}>Choose Some Foods</button><br /> <br />
                 {/* <h1>{chooseRandom.length}</h1> */}
 
-                <button className='btn btn-outline-success' onClick={() => removeFromCart(id)}>Choose again<FiDelete className='del-icon'/></button>
+                <button className='btn btn-outline-success' onClick={() => removeFromCart(id)}>Choose Again<FiDelete className='del-icon'/></button>
             
         </div>
     );
