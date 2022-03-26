@@ -54,12 +54,14 @@ const Shop = () => {
 
     const [random, setRandom] = useState([])
     const getRandomItem = () => {
+          if(cart.length >= 2) {
             const randomOne = cart[Math.floor(Math.random() * cart.length)];
             // let newCart = [];
             // newCart.push(randomOne)
             // let newCart.push(randomOne)
             // newCart = [randomOne];
             setRandom(randomOne);
+          }
       }
     
 
@@ -86,7 +88,5 @@ const Shop = () => {
          </div>
     );
 };
-
-// const random = cart[Math.floor(Math.random() * cart.length)]; 
 
 export default Shop;
