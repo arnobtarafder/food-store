@@ -19,7 +19,7 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
     const handleAddToCart = (food) => {
         // console.log(food);
-        const exists = cart.find(pd => pd.id !== food.id)
+        const exists = cart.find(pd => pd.id === food.id)
         
         if(!(cart.length > 4)) {
             const newfood = [...cart, food];
